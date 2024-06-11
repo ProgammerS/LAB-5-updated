@@ -83,9 +83,6 @@ app.post('/upload', (req, res, next) => {
     res.send('File Uploaded and Data Validated!');
 });
 
-// Export the app for Vercel
-module.exports = app;
-
 app.listen(PORT, () => {
     console.log(`Server started on http://localhost:${PORT}`);
 });
